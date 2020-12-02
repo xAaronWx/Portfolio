@@ -90,8 +90,44 @@ body {
   }
 }
 /* Greeting End */
-
-.aboutMe {
-  background-color: #96938f;
+.section {
   padding: 50px;
+}
+
+.sectionTitle {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.personalBanner {
+  display: flex;
+  align-items: flex-start;
+}
+.profile {
+  padding: 20px;
+}
+
+#profileImg {
+  border-radius: 60px;
+}
+
+#aboutMe {
+  color: #40413e;
+  background-color: #96938f;
+}
+
+#skills {
+  color: aliceblue;
+  background-color: #5a5c52;
+}
+
+#projects {
+  color: #40413e;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
 }
