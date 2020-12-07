@@ -4,6 +4,13 @@ body {
   font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
 
+hr {
+  border: dotted #40413e 7px;
+  width: 10%;
+  border-bottom: none;
+  margin: 100px auto 100px auto;
+}
+
 /* This is for the tile Hero landing */
 .banner-area {
   min-height: 100vh;
