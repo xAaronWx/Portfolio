@@ -23,12 +23,17 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav id="theNavBar" class="navbar navbar-expand-lg navbar-dark sticky-top bg-transparent">
+    <nav
+      id="theNavBar"
+      class="navbar navbar-fixed-top navbar-expand-lg navbar-dark sticky-top bg-transparent"
+    >
       <div class="d-flex flex-grow-1">
         <span class="w-100 d-lg-none d-block"
           ><!-- hidden spacer to center brand on mobile --></span
         >
-        <h5 class="navbar-brand" href="#" style="color: #40413e">Aaron White</h5>
+        <h5 class="navbar-brand" href="#" style="color: #40413e">
+          Aaron White
+        </h5>
         <div class="w-100 text-right">
           <button
             class="navbar-toggler"
@@ -40,28 +45,35 @@
           </button>
         </div>
       </div>
-      <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+      <div
+        class="collapse navbar-collapse flex-grow-1 text-right"
+        id="myNavbar"
+      >
         <ul class="navbar-nav ml-auto flex-nowrap">
           <li class="nav-item">
-            <a href="#" class="nav-link" style="color: #40413e">Home</a>
+            <a href="#home" class="nav-link" style="color: #40413e">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link" style="color: #40413e">About</a>
+            <a href="#aboutMe" class="nav-link" style="color: #40413e">About</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link" style="color: #40413e">Skills</a>
+            <a href="#skills" class="nav-link" style="color: #40413e">Skills</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link" style="color: #40413e">Projects</a>
+            <a href="#projects" class="nav-link" style="color: #40413e"
+              >Projects</a
+            >
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link" style="color: #40413e">Contact</a>
+            <a href="#contactMe" class="nav-link" style="color: #40413e"
+              >Contact</a
+            >
           </li>
         </ul>
       </div>
     </nav>
     <!-- Hero Landing -->
-    <div class="banner-area">
+    <div id="home" class="banner-area">
       <div class="wrapper">
         <div class="text-content">
           <h2>Aaron White</h2>
@@ -72,23 +84,26 @@
     <!-- About Me Section-->
     <div id="aboutMe" class="section">
       <div class="sectionTitle"><h2>About Me</h2></div>
-      <div class="personalBanner">
-        <div class="profile">
+      <div class="personalBanner justify-content-around">
+        <div class="profile col-2-4">
           <img id="profileImg" src="./assets/profile.jpg" alt="" />
         </div>
-        <div class="aboutMeText">
+        <div class="aboutMeText col-5">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptatem accusamus
-            voluptates esse. Nesciunt saepe quas provident alias, dolor dignissimos esse
-            consequuntur voluptates fugiat eum consectetur ex natus dolore culpa.Iusto eius numquam
-            itaque, cumque aut excepturi ad consequatur unde. Beatae facilis fuga inventore
-            blanditiis alias quis dolorem adipisci! Id atque excepturi, esse sed non a sit voluptas
-            saepe repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-            voluptatem accusamus voluptates esse. Nesciunt saepe quas provident alias, dolor
-            dignissimos esse consequuntur voluptates fugiat eum consectetur ex natus dolore
-            culpa.Iusto eius numquam itaque, cumque aut excepturi ad consequatur unde. Beatae
-            facilis fuga inventore blanditiis alias quis dolorem adipisci! Id atque excepturi, esse
-            sed non a sit voluptas saepe repellendus.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+            voluptatem accusamus voluptates esse. Nesciunt saepe quas provident
+            alias, dolor dignissimos esse consequuntur voluptates fugiat eum
+            consectetur ex natus dolore culpa.Iusto eius numquam itaque, cumque
+            aut excepturi ad consequatur unde. Beatae facilis fuga inventore
+            blanditiis alias quis dolorem adipisci! Id atque excepturi, esse sed
+            non a sit voluptas saepe repellendus. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Qui voluptatem accusamus voluptates
+            esse. Nesciunt saepe quas provident alias, dolor dignissimos esse
+            consequuntur voluptates fugiat eum consectetur ex natus dolore
+            culpa.Iusto eius numquam itaque, cumque aut excepturi ad consequatur
+            unde. Beatae facilis fuga inventore blanditiis alias quis dolorem
+            adipisci! Id atque excepturi, esse sed non a sit voluptas saepe
+            repellendus.
           </p>
         </div>
       </div>
@@ -139,15 +154,17 @@
           <div class="card-body">
             <h5 class="card-title">Card title that wraps to a new line</h5>
             <p class="card-text">
-              This is a longer card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
             </p>
           </div>
         </div>
         <div class="card p-3">
           <blockquote class="blockquote mb-0 card-body">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              posuere erat a ante.
             </p>
             <footer class="blockquote-footer">
               <small class="text-muted">
@@ -161,15 +178,21 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
-              This card has supporting text below as a natural lead-in to additional content.
+              This card has supporting text below as a natural lead-in to
+              additional content.
             </p>
           </div>
         </div>
         <div class="card bg-dark text-white text-center p-3">
           <blockquote class="blockquote mb-0">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              posuere erat.
+            </p>
             <footer class="blockquote-footer text-white">
-              <small> Someone famous in <cite title="Source Title">Source Title</cite> </small>
+              <small>
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
             </footer>
           </blockquote>
         </div>
@@ -178,7 +201,8 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
-              This card has a regular title and short paragraphy of text below it.
+              This card has a regular title and short paragraphy of text below
+              it.
             </p>
           </div>
         </div>
@@ -188,7 +212,8 @@
         <div class="card p-3 text-right">
           <blockquote class="blockquote mb-0">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              posuere erat a ante.
             </p>
             <footer class="blockquote-footer">
               <small class="text-muted">
@@ -202,7 +227,8 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
-              This card has supporting text below as a natural lead-in to additional content.
+              This card has supporting text below as a natural lead-in to
+              additional content.
             </p>
           </div>
         </div>
@@ -211,9 +237,9 @@
     <!-- End Card Code -->
     <hr />
     <!-- Contact Me Section -->
-    <div id="contactME" class="section">
+    <div id="contactMe" class="section">
       <div class="sectionTitle"><h2>Contact Me</h2></div>
-      <div id="contact-container" class="container">
+      <div id="contact-container" class="container justify-content-around">
         <div id="form">
           <!-- The Form -->
           <form
@@ -258,7 +284,7 @@
                 value="Contact Form Submission"
               />
             </fieldset>
-            <input type="submit" value="Submit" />
+            <input type="submit" value="Submit" style="color: #5a5c52" />
           </form>
         </div>
         <div class="col-md-4 mt-4">
@@ -271,10 +297,11 @@
               />
             </div>
             <div class="card-body pt-0">
-              <h5 class="card-title text-center">Interested in knowing me better</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the
-                card's content.
+              <h5 class="card-title text-center">
+                Interested in knowing me better
+              </h5>
+              <p class="card-text text-center">
+                <a href="#" target="_blank">Download Resume</a>
               </p>
             </div>
           </div>
