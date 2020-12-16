@@ -89,56 +89,61 @@
           <img id="profileImg" src="./assets/profile.jpg" alt="" />
         </div>
         <div class="aboutMeText col-5">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-            voluptatem accusamus voluptates esse. Nesciunt saepe quas provident
-            alias, dolor dignissimos esse consequuntur voluptates fugiat eum
-            consectetur ex natus dolore culpa.Iusto eius numquam itaque, cumque
-            aut excepturi ad consequatur unde. Beatae facilis fuga inventore
-            blanditiis alias quis dolorem adipisci! Id atque excepturi, esse sed
-            non a sit voluptas saepe repellendus. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Qui voluptatem accusamus voluptates
-            esse. Nesciunt saepe quas provident alias, dolor dignissimos esse
-            consequuntur voluptates fugiat eum consectetur ex natus dolore
-            culpa.Iusto eius numquam itaque, cumque aut excepturi ad consequatur
-            unde. Beatae facilis fuga inventore blanditiis alias quis dolorem
-            adipisci! Id atque excepturi, esse sed non a sit voluptas saepe
-            repellendus.
-          </p>
+          <p>Hello, I'm Aj and I'm an</p>
         </div>
       </div>
     </div>
     <!-- Skills Section-->
     <div id="skills" class="section">
       <div class="sectionTitle"><h2>Skills</h2></div>
-      <ul>
+      <ul id="skillSet" class="list-group list-group-horizontal">
         <li>
           <a href="#">
-            <img class="skill-icon" src="./assets/html5.svg" alt="" />
+            <img
+              class="skill-icon list-group-item flex-fill"
+              src="./assets/html5.svg"
+              alt=""
+            />
             <h5>HTML & CSS</h5>
           </a>
         </li>
         <li>
           <a href="#">
-            <img class="skill-icon" src="./assets/javascript.svg" alt="" />
+            <img
+              class="skill-icon list-group-item flex-fill"
+              src="./assets/javascript.svg"
+              alt=""
+            />
             <h5>Javascript</h5>
           </a>
         </li>
         <li>
           <a href="#">
-            <img class="skill-icon" src="./assets/adobephotoshop.svg" alt="" />
+            <img
+              class="skill-icon list-group-item flex-fill"
+              src="./assets/adobephotoshop.svg"
+              alt=""
+            />
             <h5>Photoshop</h5>
           </a>
         </li>
         <li>
           <a href="#">
-            <img class="skill-icon" src="./assets/github.svg" alt="" />
+            <img
+              class="skill-icon list-group-item flex-fill"
+              src="./assets/github.svg"
+              alt=""
+            />
             <h5>GitHub</h5>
           </a>
         </li>
         <li>
           <a href="#">
-            <img class="skill-icon" src="./assets/python.svg" alt="" />
+            <img
+              class="skill-icon list-group-item flex-fill"
+              src="./assets/python.svg"
+              alt=""
+            />
             <h5>Python</h5>
           </a>
         </li>
@@ -150,13 +155,17 @@
       <!-- Enter Card Code -->
       <div class="card-columns">
         <div class="card">
-          <img src="./assets/forest.jpg" class="card-img-top" alt="..." />
+          <a href="https://codepen.io/aaronjwhite/pen/LYZMNej" target="_blank">
+            <img
+              src="./assets/CSS Creature.png"
+              class="card-img-top"
+              alt="CSS Creature"
+          /></a>
           <div class="card-body">
-            <h5 class="card-title">Card title that wraps to a new line</h5>
+            <h5 class="card-title text-center">CSS Creature</h5>
             <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              This is a simple CSS creature design that was originally created
+              on my second day of class.
             </p>
           </div>
         </div>
@@ -176,7 +185,7 @@
         <div class="card">
           <img src="./assets/theStag.jpg" class="card-img-top" alt="..." />
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title text-center">Card title</h5>
             <p class="card-text">
               This card has supporting text below as a natural lead-in to
               additional content.
@@ -309,9 +318,71 @@
       </div>
     </div>
     <!-- Footer -->
+    <footer id="footerArea" class="page-footer font-small cyan darken-3">
+      <!-- Footer Elements -->
+      <div class="container">
+        <!-- Grid row-->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-12 py-5">
+            <div class="mb-5 flex-center">
+              <!-- Facebook -->
+              <a class="fb-ic">
+                <i
+                  class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"
+                >
+                </i>
+              </a>
+              <!-- Twitter -->
+              <a class="tw-ic">
+                <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x">
+                </i>
+              </a>
+              <!-- Google +-->
+              <a class="gplus-ic">
+                <i
+                  class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"
+                >
+                </i>
+              </a>
+              <!--Linkedin -->
+              <a class="li-ic">
+                <i
+                  class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"
+                >
+                </i>
+              </a>
+              <!--Instagram-->
+              <a class="ins-ic">
+                <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x">
+                </i>
+              </a>
+              <!--Pinterest-->
+              <a class="pin-ic">
+                <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+              </a>
+            </div>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row-->
+      </div>
+      <!-- Footer Elements -->
 
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">
+        © 2020 Copyright:
+        <a href="#home"> Aaron White</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
     <!-- Footer End-->
     <!-- THis is the JS scripts for Bootstrap -->
+    <script
+      src="https://kit.fontawesome.com/56c2358009.js"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

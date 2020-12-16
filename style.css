@@ -12,6 +12,7 @@ hr {
 }
 
 .navbar-fixed-top.scrolled {
+  opacity: 75%;
   background-color: #40413e !important;
   transition: background-color 200ms linear;
 }
@@ -126,17 +127,23 @@ hr {
   display: flex;
   align-items: center;
 }
-.profile {
-  padding: 20px;
-}
 
 .card-columns {
   padding-top: 40px;
 }
 
+/* #skillSet {
+  display: flex;
+  justify-content: center;
+} */
+
 .skill-icon {
   width: 50px;
   height: 50px;
+}
+
+.footer-copyright {
+  background-color: #40413e;
 }
 
 #fs-frm {
@@ -156,7 +163,13 @@ hr {
 }
 
 #profileImg {
+  box-shadow: 5px 10px 10px #555353;
   border-radius: 60px;
+  /* padding: 20px; */
+}
+
+#footerArea {
+  background-color: #96938f;
 }
 
 #aboutMe {
