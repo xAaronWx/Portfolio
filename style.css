@@ -11,6 +11,10 @@ hr {
   margin: 100px auto 100px auto;
 }
 
+h5 {
+  padding: 15px;
+}
+
 .navbar-fixed-top.scrolled {
   opacity: 75%;
   background-color: #40413e !important;
@@ -121,7 +125,7 @@ hr {
   justify-content: center;
   text-decoration: underline;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 70px;
 }
 .personalBanner {
   display: flex;
@@ -132,18 +136,12 @@ hr {
   padding-top: 40px;
 }
 
-/* #skillSet {
+#skillBadges {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  list-style-type: none;
   display: flex;
-  justify-content: center;
-} */
-
-.skill-icon {
-  width: 50px;
-  height: 50px;
-}
-
-.footer-copyright {
-  background-color: #40413e;
+  justify-content: space-between;
 }
 
 #fs-frm {
@@ -327,4 +325,30 @@ hr {
 .profile-card-5 .btn-primary {
   background-color: #4e5e30;
   border-color: #4e5e30;
+}
+
+#resumeCard {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);
+}
+
+.social-btns {
+  color: aliceblue;
+  margin-top: 2%;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+}
+
+#copyright {
+  font-size: small;
+  text-align: center;
+  font-weight: bold;
+  color: grey;
+  padding: 1% 0;
+}
+
+#footerSection {
+  background-color: #40413e;
 }

@@ -96,25 +96,27 @@
     <!-- Skills Section-->
     <div id="skills" class="section">
       <div class="sectionTitle"><h2>Skills</h2></div>
-      <div id="skillBadges" class="container">
-        <ul class="icon-tab-nav tabs">
-          <li>
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-html5 fa-4x" aria-hidden="true"></i>
-              <h5>HTML & CSS3</h5>
-            </a>
+      <div class="container">
+        <ul id="skillBadges" class="icon-tab-nav tabs list-group-horizontal">
+          <li class="text-center">
+            <i class="fab fa-html5 fa-4x" aria-hidden="true"></i>
+            <h5>HTML & CSS3</h5>
           </li>
-          <li>
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-js-square fa-4x"></i>
-              <h5>Javascript</h5>
-            </a>
+          <li class="text-center">
+            <i class="fab fa-js-square fa-4x"></i>
+            <h5>Javascript</h5>
           </li>
-          <li>
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-js-square fa-4x"></i>
-              <h5>Adobe Photoshop</h5>
-            </a>
+          <li class="text-center">
+            <i class="fas fa-image fa-4x"></i>
+            <h5>Adobe Photoshop</h5>
+          </li>
+          <li class="text-center">
+            <i class="fab fa-github-square fa-4x"></i>
+            <h5>GitHub</h5>
+          </li>
+          <li class="text-center">
+            <i class="fab fa-python fa-4x"></i>
+            <h5>Python</h5>
           </li>
         </ul>
       </div>
@@ -139,7 +141,7 @@
             </p>
           </div>
         </div>
-        <div class="card p-3">
+        <div class="card bg-dark text-white text-center p-3">
           <blockquote class="blockquote mb-0 card-body">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
@@ -153,12 +155,23 @@
           </blockquote>
         </div>
         <div class="card">
-          <img src="./assets/theStag.jpg" class="card-img-top" alt="..." />
+          <a
+            href="https://xaaronwx.github.io/API-Project/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./assets/API-Project.png"
+              class="card-img-top"
+              alt="API Project"
+            />
+          </a>
           <div class="card-body">
-            <h5 class="card-title text-center">Card title</h5>
+            <h5 class="card-title text-center">API Project</h5>
             <p class="card-text">
-              This card has supporting text below as a natural lead-in to
-              additional content.
+              This is an API project that was completed. It displays a button
+              that fetches from two separate API sources and displays it onto
+              the page.
             </p>
           </div>
         </div>
@@ -176,19 +189,52 @@
           </blockquote>
         </div>
         <div class="card text-center">
-          <img src="./assets/forest.jpg" class="card-img-top" alt="..." />
+          <a
+            href="https://xaaronwx.github.io/Static_Website/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./assets/Static-site.png"
+              class="card-img-top"
+              alt="Static Website"
+            />
+          </a>
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Static Webpage</h5>
             <p class="card-text">
-              This card has a regular title and short paragraphy of text below
-              it.
+              The objective for this project was to mimic a popular websites
+              landing page.
             </p>
           </div>
         </div>
         <div class="card">
-          <img src="./assets/profile.jpg" class="card-img-top" alt="..." />
+          <img src="./assets/RoadBW.JPG" class="card-img-top" alt="..." />
         </div>
-        <div class="card p-3 text-right">
+        <div class="card">
+          <img src="./assets/RoadBW.JPG" class="card-img-top" alt="..." />
+        </div>
+        <div class="card">
+          <a
+            href="https://xaaronwx.github.io/MyTinDogProject/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./assets/TinDog.png"
+              class="card-img-top"
+              alt="TinDog Webpage"
+            />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Tin Dog Site</h5>
+            <p class="card-text">
+              This is a basic landing site for a fictional website that I
+              created.
+            </p>
+          </div>
+        </div>
+        <div class="card bg-dark text-white text-right p-3">
           <blockquote class="blockquote mb-0">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
@@ -200,16 +246,6 @@
               </small>
             </footer>
           </blockquote>
-        </div>
-        <div class="card">
-          <img src="./assets/theStag.jpg" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This card has supporting text below as a natural lead-in to
-              additional content.
-            </p>
-          </div>
         </div>
       </div>
     </div>
@@ -267,11 +303,11 @@
           </form>
         </div>
         <div class="col-md-4 mt-4">
-          <div class="card profile-card-5">
+          <div id="resumeCard" class="card profile-card-5">
             <div class="card-img-block">
               <img
                 class="card-img-top"
-                src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c"
+                src="./assets/Fire.jpg"
                 alt="Card image cap"
               />
             </div>
@@ -280,7 +316,7 @@
                 Interested in knowing me better
               </h5>
               <p class="card-text text-center">
-                <a href="#" target="_blank">Download Resume</a>
+                <a href="#" target="_blank">Download My Resume</a>
               </p>
             </div>
           </div>
@@ -288,65 +324,47 @@
       </div>
     </div>
     <!-- Footer -->
-    <footer id="footerArea" class="page-footer font-small cyan darken-3">
-      <!-- Footer Elements -->
-      <div class="container">
-        <!-- Grid row-->
-        <div class="row">
-          <!-- Grid column -->
-          <div class="col-md-12 py-5">
-            <div class="mb-5 flex-center">
-              <!-- Facebook -->
-              <a class="fb-ic">
-                <i
-                  class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"
-                >
-                </i>
-              </a>
-              <!-- Twitter -->
-              <a class="tw-ic">
-                <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x">
-                </i>
-              </a>
-              <!-- Google +-->
-              <a class="gplus-ic">
-                <i
-                  class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"
-                >
-                </i>
-              </a>
-              <!--Linkedin -->
-              <a class="li-ic">
-                <i
-                  class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"
-                >
-                </i>
-              </a>
-              <!--Instagram-->
-              <a class="ins-ic">
-                <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x">
-                </i>
-              </a>
-              <!--Pinterest-->
-              <a class="pin-ic">
-                <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
-              </a>
-            </div>
-          </div>
-          <!-- Grid column -->
-        </div>
-        <!-- Grid row-->
-      </div>
-      <!-- Footer Elements -->
+    <div id="footerSection" class="section">
+      <footer id="footer">
+        <div class="social container-fluid">
+          <a
+            class="socialIcons"
+            href="https://www.linkedin.com/in/aaronj-white/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="social-btns fab fa-linkedin fa-2x"></i>
+          </a>
+          <a
+            class="socialIcons"
+            href="https://github.com/xAaronWx"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="social-btns fab fab fa-github-square fa-2x"></i>
+          </a>
+          <a
+            class="socialIcons"
+            href="https://codepen.io/aaronjwhite"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="social-btns fab fa-codepen fa-2x"></i>
+          </a>
+          <a
+            class="socialIcons"
+            href="https://aaronjwhite.carbonmade.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="social-btns fas fa-globe-americas fa-2x"></i>
+          </a>
 
-      <!-- Copyright -->
-      <div class="footer-copyright text-center py-3">
-        © 2020 Copyright:
-        <a href="#home"> Aaron White</a>
-      </div>
-      <!-- Copyright -->
-    </footer>
-    <!-- Footer -->
+          <p id="copyright">© Copyright 2020: Aaron White</p>
+        </div>
+      </footer>
+    </div>
+
     <!-- Footer End-->
     <!-- THis is the JS scripts for Bootstrap -->
     <script
