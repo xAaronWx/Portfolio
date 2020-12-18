@@ -84,42 +84,87 @@
     <!-- About Me Section-->
     <div id="aboutMe" class="section">
       <div class="sectionTitle"><h2>About Me</h2></div>
-      <div class="personalBanner justify-content-around">
-        <div class="profile col-2-4">
-          <img id="profileImg" src="./assets/profile.jpg" alt="" />
+      <div class="personalBanner">
+        <div class="profile col-3">
+          <img
+            id="profileImg"
+            class="image-fluid"
+            src="./assets/profile.jpg"
+            alt="profile photo"
+          />
         </div>
-        <div class="aboutMeText col-5">
-          <p>Hello, I'm Aj and I'm an</p>
+        <div class="aboutMeText row">
+          <div class="col-md-4">
+            <p class="lead text-lg-center font-weight-bolder">
+              Hello, I'm Aj White, and I'm a web development student at
+              <a
+                class="link"
+                href="https://elevenfifty.org/"
+                style="color: #e33e42"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Eleven Fifty Academy</a
+              >
+              located in central Indiana.
+            </p>
+          </div>
+          <div class="col-md-7">
+            <p class="lead">
+              I’ve spent a number of years working across different areas of
+              photography, and front-end development. I pride myself on being an
+              avid learner of technology and will not shy away from a new
+              challenge. You can see my code at
+              <a
+                class="link"
+                style="color: aliceblue"
+                href="https://github.com/xAaronWx"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub</a
+              >, and feel free to contact me at
+              <a
+                class="link"
+                style="color: aliceblue"
+                href="https://www.linkedin.com/in/aaronj-white/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Linkedin</a
+              >.
+            </p>
+            <p class="lead">
+              When not working I can usually be found spending time outside in
+              my Jeep, being with my family, and playing with my dogs. I'm a fan
+              of all things 80's and make no efforts to hide it.
+            </p>
+          </div>
         </div>
       </div>
     </div>
     <!-- Skills Section-->
     <div id="skills" class="section">
       <div class="sectionTitle"><h2>Skills</h2></div>
-      <div class="container">
-        <ul id="skillBadges" class="icon-tab-nav tabs list-group-horizontal">
-          <li class="text-center">
-            <i class="fab fa-html5 fa-4x" aria-hidden="true"></i>
-            <h5>HTML & CSS3</h5>
-          </li>
-          <li class="text-center">
-            <i class="fab fa-js-square fa-4x"></i>
-            <h5>Javascript</h5>
-          </li>
-          <li class="text-center">
-            <i class="fas fa-image fa-4x"></i>
-            <h5>Adobe Photoshop</h5>
-          </li>
-          <li class="text-center">
-            <i class="fab fa-github-square fa-4x"></i>
-            <h5>GitHub</h5>
-          </li>
-          <li class="text-center">
-            <i class="fab fa-python fa-4x"></i>
-            <h5>Python</h5>
-          </li>
-        </ul>
-      </div>
+      <ul id="skillBadges" class="list-group-horizontal">
+        <li class="text-center">
+          <i class="fab fa-html5 fa-4x" aria-hidden="true"></i>
+          <h5>HTML & CSS3</h5>
+        </li>
+        <li class="text-center">
+          <i class="fab fa-js-square fa-4x"></i>
+          <h5>Javascript</h5>
+        </li>
+        <li class="text-center">
+          <i class="fas fa-image fa-4x"></i>
+          <h5>Adobe Photoshop</h5>
+        </li>
+        <li class="text-center">
+          <i class="fab fa-github-square fa-4x"></i>
+          <h5>GitHub</h5>
+        </li>
+        <li class="text-center">
+          <i class="fab fa-python fa-4x"></i>
+          <h5>Python</h5>
+        </li>
+      </ul>
     </div>
     <!-- Projects Section -->
     <div id="projects" class="section">
@@ -130,10 +175,10 @@
           <a href="https://codepen.io/aaronjwhite/pen/LYZMNej" target="_blank">
             <img
               src="./assets/CSS Creature.png"
-              class="card-img-top"
+              class="project-img card-img-top"
               alt="CSS Creature"
           /></a>
-          <div class="card-body">
+          <div class="card-body bg-dark text-white">
             <h5 class="card-title text-center">CSS Creature</h5>
             <p class="card-text">
               This is a simple CSS creature design that was originally created
@@ -141,18 +186,22 @@
             </p>
           </div>
         </div>
-        <div class="card bg-dark text-white text-center p-3">
+        <div class="card text-right p-3">
           <blockquote class="blockquote mb-0 card-body">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              posuere erat a ante.
-            </p>
+            <p>Roads? Where we're going we don't need roads.</p>
             <footer class="blockquote-footer">
               <small class="text-muted">
-                Someone famous in <cite title="Source Title">Source Title</cite>
+                Back to the Future <cite title="Source Title">1985</cite>
               </small>
             </footer>
           </blockquote>
+        </div>
+        <div class="card">
+          <img
+            src="./assets/Gringotts.JPG"
+            class="card-img-top"
+            alt="rock city photo"
+          />
         </div>
         <div class="card">
           <a
@@ -162,11 +211,11 @@
           >
             <img
               src="./assets/API-Project.png"
-              class="card-img-top"
+              class="project-img card-img-top"
               alt="API Project"
             />
           </a>
-          <div class="card-body">
+          <div class="card-body bg-dark text-white">
             <h5 class="card-title text-center">API Project</h5>
             <p class="card-text">
               This is an API project that was completed. It displays a button
@@ -175,15 +224,12 @@
             </p>
           </div>
         </div>
-        <div class="card bg-dark text-white text-center p-3">
+        <div class="card text-center p-3">
           <blockquote class="blockquote mb-0">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              posuere erat.
-            </p>
-            <footer class="blockquote-footer text-white">
+            <p>You’re killin’ me, Smalls!</p>
+            <footer class="blockquote-footer">
               <small>
-                Someone famous in <cite title="Source Title">Source Title</cite>
+                The Sandlot <cite title="Source Title">1993</cite>
               </small>
             </footer>
           </blockquote>
@@ -196,11 +242,11 @@
           >
             <img
               src="./assets/Static-site.png"
-              class="card-img-top"
+              class="project-img card-img-top"
               alt="Static Website"
             />
           </a>
-          <div class="card-body">
+          <div class="card-body bg-dark text-white">
             <h5 class="card-title">Static Webpage</h5>
             <p class="card-text">
               The objective for this project was to mimic a popular websites
@@ -209,10 +255,11 @@
           </div>
         </div>
         <div class="card">
-          <img src="./assets/RoadBW.JPG" class="card-img-top" alt="..." />
-        </div>
-        <div class="card">
-          <img src="./assets/RoadBW.JPG" class="card-img-top" alt="..." />
+          <img
+            src="./assets/RoadBW.JPG"
+            class="card-img-top"
+            alt="foggy road photo"
+          />
         </div>
         <div class="card">
           <a
@@ -222,11 +269,11 @@
           >
             <img
               src="./assets/TinDog.png"
-              class="card-img-top"
+              class="project-img card-img-top"
               alt="TinDog Webpage"
             />
           </a>
-          <div class="card-body">
+          <div class="card-body bg-dark text-white">
             <h5 class="card-title">Tin Dog Site</h5>
             <p class="card-text">
               This is a basic landing site for a fictional website that I
@@ -234,15 +281,12 @@
             </p>
           </div>
         </div>
-        <div class="card bg-dark text-white text-right p-3">
+        <div class="card text-left p-3">
           <blockquote class="blockquote mb-0">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              posuere erat a ante.
-            </p>
+            <p>You're gonna need a bigger boat.</p>
             <footer class="blockquote-footer">
               <small class="text-muted">
-                Someone famous in <cite title="Source Title">Source Title</cite>
+                Jaws <cite title="Source Title">1975</cite>
               </small>
             </footer>
           </blockquote>
@@ -316,7 +360,12 @@
                 Interested in knowing me better
               </h5>
               <p class="card-text text-center">
-                <a href="#" target="_blank">Download My Resume</a>
+                <a
+                  class="resumeBtn"
+                  href="https://drive.google.com/file/d/1i7ooKOwAOvc60YFx4Hgv1qblNxXLXDuf/view?usp=sharing"
+                  target="_blank"
+                  >Download My Resume</a
+                >
               </p>
             </div>
           </div>
@@ -326,7 +375,7 @@
     <!-- Footer -->
     <div id="footerSection" class="section">
       <footer id="footer">
-        <div class="social container-fluid">
+        <div class="social container-fluid justify-content-around">
           <a
             class="socialIcons"
             href="https://www.linkedin.com/in/aaronj-white/"
@@ -359,9 +408,9 @@
           >
             <i class="social-btns fas fa-globe-americas fa-2x"></i>
           </a>
-
-          <p id="copyright">© Copyright 2020: Aaron White</p>
         </div>
+
+        <p id="copyright">© Copyright 2020: Aaron White</p>
       </footer>
     </div>
 
