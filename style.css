@@ -182,9 +182,14 @@ a:link {
 }
 
 #profileImg {
+  filter: grayscale(100);
   box-shadow: 5px 10px 10px #555353;
   border-radius: 60px;
   /* padding: 20px; */
+}
+
+#profileImg:hover {
+  filter: saturate();
 }
 
 #footerArea {
