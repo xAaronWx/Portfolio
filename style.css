@@ -165,6 +165,10 @@ a:link {
   justify-content: space-around;
 }
 
+.skillIcon:hover {
+  color: #96938f;
+}
+
 #fs-frm {
   border-radius: 10px;
   padding: 20px;
