@@ -186,6 +186,9 @@ a:link {
 }
 
 #profileImg {
+  width: 225px;
+  height: 225px;
+  margin-bottom: 25px;
   filter: grayscale(100);
   box-shadow: 5px 10px 10px #555353;
   border-radius: 60px;
